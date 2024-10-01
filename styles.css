@@ -1,0 +1,66 @@
+.background {
+  background-color: rgb(202, 190, 178);
+  background-image: url(img/kitten-2801007_1280.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-attachment: fixed;
+}
+
+.heading {
+  padding: 5px;
+  border: 5px solid #887181;
+  background-color: #cfbfcb;
+  color: rgb(92, 92, 92);
+  font-size: 40px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.sentence {
+  padding: 5px;
+  border: 5px solid #887181;
+  background-color: #cfbfcb;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.whisker-img img {
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: #887181;
+  border-width: 5px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gen-btn {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #8a6c82;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+
+.gen-btn:hover {
+  background-color: #553c4e;
+}
+
+.gen-btn:active {
+  background-color: #553c4e;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
