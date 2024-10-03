@@ -9,6 +9,7 @@ async function getCat() {
     let img = document.createElement("img");
     let img_div = document.getElementById("cat-img");
     img.src = image
+    img.classList.add("whiskers")
     img_div.append(img)
     img.setAttribute("id", "cat");
 }

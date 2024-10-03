@@ -25,13 +25,14 @@
   font-size: 30px;
 }
 
-.whisker-img img {
+.whisker-img .whiskers {
   display: block;
   margin: auto;
   margin-bottom: 20px;
   border-style: solid;
   border-color: #887181;
   border-width: 5px;
+  width: 50%;
 }
 
 .center {
